@@ -1,88 +1,17 @@
-Sure, here's an updated version of the code with a dark mode color scheme and an accent color of #34decd for fonts and buttons:
-
-html
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Webpage</title>
-	<style>
-		body {
-			background-color: #fff;
-			color: #333;
-		}
-
-		header {
-			background-color: #333;
-			color: #fff;
-			padding: 1rem;
-		}
-
-		main {
-			padding: 2rem;
-		}
-
-		section {
-			margin-bottom: 3rem;
-		}
-
-		h1, h2, h3 {
-			color: #333;
-			font-family: Arial, sans-serif;
-		}
-
-		p {
-			color: #666;
-			font-size: 1.2rem;
-			line-height: 1.5;
-		}
-
-		a {
-			color: #34decd;
-			text-decoration: none;
-			font-weight: bold;
-		}
-
-		button {
-			background-color: #34decd;
-			color: #fff;
-			border: none;
-			padding: 1rem 2rem;
-			font-size: 1.2rem;
-			cursor: pointer;
-		}
-
-		.dark-mode {
-			background-color: #333;
-			color: #fff;
-		}
-
-		.dark-mode h1, .dark-mode h2, .dark-mode h3 {
-			color: #fff;
-		}
-
-		.dark-mode p {
-			color: #ccc;
-		}
-
-		.dark-mode a {
-			color: #34decd;
-		}
-
-		.dark-mode button {
-			background-color: #34decd;
-			color: #fff;
-		}
-	</style>
+	<title>My Webpage - Home</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
 		<h1>Welcome to my webpage</h1>
 		<nav>
 			<ul>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
 		<button onclick="toggleDarkMode()">Dark Mode</button>
@@ -92,23 +21,9 @@ html
 			<h2>Home Page</h2>
 			<img src="https://www.example.com/images/home.jpg" alt="Home Image">
 			<p>This is the home page of my webpage.</p>
-			<a href="#about"><button>Learn More</button></a>
+			<a href="about.html"><button>Learn More</button></a>
 		</section>
-		<section id="about">
-			<h2>About Page</h2>
-			<img src="https://www.example.com/images/about.jpg" alt="About Image">
-			<p>This is the about page of my webpage.</p>
-			<a href="#contact"><button>Contact Us</button></a>
-		</section>
-		<section id="contact">
-			<h2>Contact Page</h2>
-			<img src="https://www.example.com/images/contact.jpg" alt="Contact Image">
-			<p>This is the contact page of my webpage.</p>
-			<form action="#" method="post">
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name"><br><br>
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email"><br><br>
-				<label for="message">Message:</label>
-				<textarea id="message" name="message"></textarea><br><br>
-				<input
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
